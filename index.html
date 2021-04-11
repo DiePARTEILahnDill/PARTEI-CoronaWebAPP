@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Die PARTEI - Corona WebAPP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+      <div id="headercontainer">
+        <div id="header">
+          <img src="img/logo.png" alt="app-logo" id="logoimage">
+        </div>
+      </div>
+      <div id="main">
+        <div id="wrapper">
+          <div id="overlay">
+            <img src="img/delete.png" alt="scanner" id="scannerimage">
+          </div>
+        </div>
+		  </div>
+      <div id="camcontainer">
+        <div id="container">
+	        <video autoplay="true" id="videoElement">
+	        </video>
+        </div>
+      </div>
+      <script>
+      var video = document.querySelector("#videoElement");
+      var params = {video: {facingMode: 'environment'}};
+
+
+      if (navigator.mediaDevices.getUserMedia) {
+          navigator.mediaDevices.getUserMedia(params)
+
+          .then(function (stream) {
+            video.srcObject = stream;
+          })
+          .catch(function (err0r) {
+            console.log("Keep Calm And BEE-DO BEE-DO!");
+          });
+      }
+      </script>
+      <div id="scanbutton">
+        <img src="img/qr.png" alt="scanner" id="qr"><a href="https://linktr.ee/zdfmagazinroyale">qr code scannen</a>
+      </div>
+	    <br>
+	    <hr>
+	    <div id="privatebutton">
+	      <a class="thin" href="https://senfcall.de/">privates treffen starten</a>
+	    </div>
+      </div>
+		  <div id="footer">
+			  <div id="social">
+			    <a href="https://github.com/DiePARTEILahnDill/PARTEI-CoronaWebAPP"><img class="social" src="img/github.png" alt="Link zum GitHub Repository"></a>
+				  <a href="https://twitter.com/PARTEI_LDK"><img class="social" src="img/twitter.png" alt="Link zum Twitter Profil"></a>
+				  <a href="https://fb.com/parteilahndill"><img class="social" src="img/facebook.png" alt="Link zum Facebook Profil"></a>
+				  <a href="https://www.instagram.com/die_partei_ldk"><img class="social" src="img/instagram.png" alt="Link zum Instagram Profil"></a>
+				  <a href="https://www.youtube.com/channel/UCRafGquOGZm2fVHouv2zpYw"><img class="social" src="img/youtube.png" alt="Link zum Youtube Kanal"></a>
+				  <a href="https://partei-ldk.de"><img class="social" src="img/website.png" alt="Link zur PARTEI Website"></a>
+				  <a href="https://cwa.partei-ldk.de/impressum.html"><img class="social" src="img/impressum.png" alt="Impressum und Datenschutz"></a>
+	  	  </div>
+		  </div>
+    </div>
+  </body>
+</html>

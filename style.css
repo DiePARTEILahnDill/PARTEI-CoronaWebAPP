@@ -1,0 +1,145 @@
+#overlay {
+	margin: auto;
+	width: 660px;
+	height: 555px;
+	position: absolute;
+	z-index: 10;
+	top: 210px;
+}
+
+#scannerimage {
+	width: 100%;
+	max-height: 100%;
+}
+
+#wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#main {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#divcontainer {
+	width: 700px;
+	height: 595px;
+}
+
+#header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+
+#logoimage {
+  width: 100%;
+}
+
+#scanbutton {
+  text-align: center;
+  font-size: 40px;
+  background: #fff;
+  width: 700px;
+	margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-weight: bold;
+  border: 10px solid black;
+  border-radius: 20px;
+}
+
+#privatebutton {
+  text-align: center;
+  font-size: 40px;
+  width: 700px;
+	margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 20px;
+	height: 70px;
+}
+
+body {
+	background: #111111;
+	padding: 0;
+}
+
+#container {
+	margin: 0px auto;
+	width: 700px;
+	height: 575px;
+	border: 10px #000 solid;
+}
+#videoElement {
+	width: 700px;
+	height: 575px;
+	background-color: #000;
+	object-fit: cover;
+}
+
+a {
+  color: black;
+  font-style: unset;
+  text-decoration: none;
+  vertical-align: top;
+  padding: 10px;
+}
+
+#qr {
+  height: 40px;
+  margin-top: 10px;
+}
+
+.thin {
+  color: white;
+  font-weight: lighter;
+	vertical-align: middle;
+}
+
+#footer {
+  position: absolute;
+  background: white;
+  width: 100%;
+  bottom: 0;
+	height: 100px;
+}
+
+img {
+  height: 100%;
+}
+
+#social {
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+	max-width: 600px;
+	width: 80%
+}
+
+.social {
+  padding-left: 5px;
+	padding-top: 10px;
+	height: 65%
+}
+
+#links {
+  float: left;
+	font-size: 30px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 95vh;
+}
+
+#content-wrap {
+  padding-bottom: 30vh;
+}
