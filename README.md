@@ -7,6 +7,7 @@
 
 ## [Hier starten!](https://cwa.partei-ldk.de)
 
+<img src="https://raw.githubusercontent.com/DiePARTEILahnDill/PARTEI-CoronaWebAPP/main/cwa.png" width="300">
 <img src="https://raw.githubusercontent.com/DiePARTEILahnDill/PARTEI-CoronaWebAPP/main/signal-2021-04-12-004000.png" width="300">
 
 | Tables        | Andere APPs           | PARTEI-CWA  | Corona Warn App | 
