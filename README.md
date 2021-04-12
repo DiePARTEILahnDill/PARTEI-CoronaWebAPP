@@ -21,3 +21,4 @@
 | Zugriff unabhängig von Stores | ❌ | ☑️ |  ☑️  |
 | Seriösität | ❌ | ❌ | ☑️ |
 | Stackoverflow Copy & Paste | ☑️ | ☑️ | ❌ |
+| Beliebigen QR oder Barcode scannen| ❌ | ☑️ | ❌ |
